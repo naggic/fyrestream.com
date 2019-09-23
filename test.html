@@ -1,0 +1,26 @@
+<html>
+    <head>
+            <link rel="stylesheet" href="https://cdn.plyr.io/3.5.6/plyr.css">
+
+        <style>
+            .container {
+	margin: 20px auto;
+	max-width: 500px;
+}
+        </style>
+    </head>
+        <div class="container">
+                <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="bTqVqk7FSmY"></div>
+            </div>
+            <!-- Plyr resources and browser polyfills are specified in the pen settings -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.5.6/plyr.min.js"></script>
+            <script>
+               // Change "{}" to your options:
+                // https://github.com/sampotts/plyr/#options
+                const player = new Plyr('#player', {});
+
+                // Expose player so it can be used from the console
+                window.player = player;
+ 
+            </script>
+</html>
