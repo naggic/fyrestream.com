@@ -210,7 +210,6 @@ blockquote span img {
 	cursor: pointer;
 	padding: 40px 0;
 	text-align: center;
-	border-top: 5px solid #0e0f10;
 	visibility: hidden;
 	z-index: 10;
 	-webkit-transition: all .3s ease;
@@ -585,6 +584,7 @@ blockquote span img {
 .slide-kenburns-3 {
  	background-image: url(../img/slider/slide-3.jpg);
 }
+
 .slide-kenburns-4 {
 	background-image: url(../img/slider/slide-4.jpg);
 }
