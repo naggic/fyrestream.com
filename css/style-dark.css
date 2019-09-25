@@ -591,11 +591,16 @@ blockquote span img {
 .slide-kenburns-5 {
 	background-image: url(../img/slider/slide-5.jpg);
 }
+
+.slide-kenburns-6 {
+	background-image: url(../img/slider/slide-6.jpg);
+}
 .slide-kenburns-1, 
 .slide-kenburns-2, 
 .slide-kenburns-3,
 .slide-kenburns-4,
-.slide-kenburns-5{
+.slide-kenburns-5,
+.slide-kenburns-6{
  	background-repeat: no-repeat;
  	background-position: center;
  	-webkit-background-size: cover;
@@ -624,6 +629,11 @@ blockquote span img {
 .slide-kenburns-5 {
 	-webkit-animation-delay: 24s;
    animation-delay: 24s;
+}
+
+.slide-kenburns-6 {
+	-webkit-animation-delay: 30s;
+   animation-delay: 30s;
 }
 
 /* YouTube Video */
