@@ -212,29 +212,7 @@ $(document).ready(function() {
                 email: "Please enter your email address"
             },
 
-            submitHandler: function (form) {
-                $.ajax({
-                    type: "POST",
-                    url: "mail.php",
-                    data: $(form).serialize(),
-                    success: function () {
-                        $( "#loader").hide();
-                        $( "#success").slideDown( "slow" );
-                        setTimeout(function() {
-                        $( "#success").slideUp( "slow" );
-                        }, 3000);
-                        form.reset();
-                    },
-                    error: function() {
-                        $( "#loader").hide();
-                        $( "#error").slideDown( "slow" );
-                        setTimeout(function() {
-                        $( "#error").slideUp( "slow" );
-                        }, 3000);
-                    }
-                });
-                return false;
-            }
+            
 
         });
     }
